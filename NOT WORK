@@ -1,0 +1,489 @@
+-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
+
+-- Instances:
+
+local Converted = {
+	["_Executor"] = Instance.new("ScreenGui");
+	["_Frame"] = Instance.new("Frame");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_Frame1"] = Instance.new("Frame");
+	["_TextBox"] = Instance.new("TextBox");
+	["_R6"] = Instance.new("TextButton");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_Script"] = Instance.new("Script");
+	["_RemoteEvent"] = Instance.new("RemoteEvent");
+	["_R61"] = Instance.new("ModuleScript");
+	["_DefaultCharacter"] = Instance.new("Model");
+	["_Animate"] = Instance.new("LocalScript");
+	["_ScaleDampeningPercent"] = Instance.new("NumberValue");
+	["_sit"] = Instance.new("StringValue");
+	["_SitAnim"] = Instance.new("Animation");
+	["_fall"] = Instance.new("StringValue");
+	["_FallAnim"] = Instance.new("Animation");
+	["_toolnone"] = Instance.new("StringValue");
+	["_ToolNoneAnim"] = Instance.new("Animation");
+	["_climb"] = Instance.new("StringValue");
+	["_ClimbAnim"] = Instance.new("Animation");
+	["_jump"] = Instance.new("StringValue");
+	["_JumpAnim"] = Instance.new("Animation");
+	["_run"] = Instance.new("StringValue");
+	["_RunAnim"] = Instance.new("Animation");
+	["_walk"] = Instance.new("StringValue");
+	["_WalkAnim"] = Instance.new("Animation");
+	["_idle"] = Instance.new("StringValue");
+	["_Animation2"] = Instance.new("Animation");
+	["_Weight"] = Instance.new("NumberValue");
+	["_Animation1"] = Instance.new("Animation");
+	["_Weight1"] = Instance.new("NumberValue");
+	["_Health"] = Instance.new("Script");
+	["_HumanoidRootPart"] = Instance.new("Part");
+	["_RootJoint"] = Instance.new("Motor6D");
+	["_RootAttachment"] = Instance.new("Attachment");
+	["_CharacterSoundEvent"] = Instance.new("RemoteEvent");
+	["_Humanoid"] = Instance.new("Humanoid");
+	["_Jump"] = Instance.new("LocalScript");
+	["_Respawn"] = Instance.new("Script");
+	["_Animator"] = Instance.new("Animator");
+	["_Right Leg"] = Instance.new("Part");
+	["_RightFootAttachment"] = Instance.new("Attachment");
+	["_CharacterSoundEvent1"] = Instance.new("RemoteEvent");
+	["_Left Leg"] = Instance.new("Part");
+	["_LeftFootAttachment"] = Instance.new("Attachment");
+	["_CharacterSoundEvent2"] = Instance.new("RemoteEvent");
+	["_Right Arm"] = Instance.new("Part");
+	["_RightGripAttachment"] = Instance.new("Attachment");
+	["_RightShoulderAttachment"] = Instance.new("Attachment");
+	["_CharacterSoundEvent3"] = Instance.new("RemoteEvent");
+	["_Left Arm"] = Instance.new("Part");
+	["_LeftGripAttachment"] = Instance.new("Attachment");
+	["_LeftShoulderAttachment"] = Instance.new("Attachment");
+	["_CharacterSoundEvent4"] = Instance.new("RemoteEvent");
+	["_Torso"] = Instance.new("Part");
+	["_Neck"] = Instance.new("Motor6D");
+	["_Left Hip"] = Instance.new("Motor6D");
+	["_Right Hip"] = Instance.new("Motor6D");
+	["_Left Shoulder"] = Instance.new("Motor6D");
+	["_Right Shoulder"] = Instance.new("Motor6D");
+	["_WaistBackAttachment"] = Instance.new("Attachment");
+	["_WaistCenterAttachment"] = Instance.new("Attachment");
+	["_WaistFrontAttachment"] = Instance.new("Attachment");
+	["_RightCollarAttachment"] = Instance.new("Attachment");
+	["_LeftCollarAttachment"] = Instance.new("Attachment");
+	["_BodyBackAttachment"] = Instance.new("Attachment");
+	["_BodyFrontAttachment"] = Instance.new("Attachment");
+	["_NeckAttachment"] = Instance.new("Attachment");
+	["_roblox"] = Instance.new("Decal");
+	["_CharacterSoundEvent5"] = Instance.new("RemoteEvent");
+	["_Head"] = Instance.new("Part");
+	["_face"] = Instance.new("Decal");
+	["_Climbing"] = Instance.new("Sound");
+	["_CharacterSoundEvent6"] = Instance.new("RemoteEvent");
+	["_Swimming"] = Instance.new("Sound");
+	["_CharacterSoundEvent7"] = Instance.new("RemoteEvent");
+	["_Running"] = Instance.new("Sound");
+	["_CharacterSoundEvent8"] = Instance.new("RemoteEvent");
+	["_Splash"] = Instance.new("Sound");
+	["_CharacterSoundEvent9"] = Instance.new("RemoteEvent");
+	["_Landing"] = Instance.new("Sound");
+	["_CharacterSoundEvent10"] = Instance.new("RemoteEvent");
+	["_Jumping"] = Instance.new("Sound");
+	["_CharacterSoundEvent11"] = Instance.new("RemoteEvent");
+	["_FreeFalling"] = Instance.new("Sound");
+	["_CharacterSoundEvent12"] = Instance.new("RemoteEvent");
+	["_Died"] = Instance.new("Sound");
+	["_CharacterSoundEvent13"] = Instance.new("RemoteEvent");
+	["_GettingUp"] = Instance.new("Sound");
+	["_CharacterSoundEvent14"] = Instance.new("RemoteEvent");
+	["_FaceCenterAttachment"] = Instance.new("Attachment");
+	["_FaceFrontAttachment"] = Instance.new("Attachment");
+	["_HatAttachment"] = Instance.new("Attachment");
+	["_HairAttachment"] = Instance.new("Attachment");
+	["_Mesh"] = Instance.new("SpecialMesh");
+	["_CharacterSoundEvent15"] = Instance.new("RemoteEvent");
+	["_GettingUp1"] = Instance.new("Sound");
+	["_CharacterSoundEvent16"] = Instance.new("RemoteEvent");
+	["_Died1"] = Instance.new("Sound");
+	["_CharacterSoundEvent17"] = Instance.new("RemoteEvent");
+	["_FreeFalling1"] = Instance.new("Sound");
+	["_CharacterSoundEvent18"] = Instance.new("RemoteEvent");
+	["_Jumping1"] = Instance.new("Sound");
+	["_CharacterSoundEvent19"] = Instance.new("RemoteEvent");
+	["_Landing1"] = Instance.new("Sound");
+	["_CharacterSoundEvent20"] = Instance.new("RemoteEvent");
+	["_Splash1"] = Instance.new("Sound");
+	["_CharacterSoundEvent21"] = Instance.new("RemoteEvent");
+	["_Running1"] = Instance.new("Sound");
+	["_CharacterSoundEvent22"] = Instance.new("RemoteEvent");
+	["_Swimming1"] = Instance.new("Sound");
+	["_CharacterSoundEvent23"] = Instance.new("RemoteEvent");
+	["_Climbing1"] = Instance.new("Sound");
+	["_CharacterSoundEvent24"] = Instance.new("RemoteEvent");
+	["_GettingUp2"] = Instance.new("Sound");
+	["_CharacterSoundEvent25"] = Instance.new("RemoteEvent");
+	["_Died2"] = Instance.new("Sound");
+	["_CharacterSoundEvent26"] = Instance.new("RemoteEvent");
+	["_FreeFalling2"] = Instance.new("Sound");
+	["_CharacterSoundEvent27"] = Instance.new("RemoteEvent");
+	["_Jumping2"] = Instance.new("Sound");
+	["_CharacterSoundEvent28"] = Instance.new("RemoteEvent");
+	["_Landing2"] = Instance.new("Sound");
+	["_CharacterSoundEvent29"] = Instance.new("RemoteEvent");
+	["_Splash2"] = Instance.new("Sound");
+	["_CharacterSoundEvent30"] = Instance.new("RemoteEvent");
+	["_Running2"] = Instance.new("Sound");
+	["_CharacterSoundEvent31"] = Instance.new("RemoteEvent");
+	["_Swimming2"] = Instance.new("Sound");
+	["_CharacterSoundEvent32"] = Instance.new("RemoteEvent");
+	["_Climbing2"] = Instance.new("Sound");
+	["_CharacterSoundEvent33"] = Instance.new("RemoteEvent");
+	["_Exe"] = Instance.new("TextButton");
+	["_RemoteEvent1"] = Instance.new("RemoteEvent");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_Script1"] = Instance.new("Script");
+	["_Loadstring"] = Instance.new("ModuleScript");
+	["_FiOne"] = Instance.new("ModuleScript");
+	["_Yueliang"] = Instance.new("ModuleScript");
+	["_Cle"] = Instance.new("TextButton");
+	["_LocalScript2"] = Instance.new("LocalScript");
+	["_Smooth GUI Dragging"] = Instance.new("LocalScript");
+}
+
+-- Properties:
+
+Converted["_Executor"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_Executor"].Name = "Executor"
+Converted["_Executor"].Parent = game:GetService("CoreGui")
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(45.00000111758709, 45.00000111758709, 45.00000111758709)
+Converted["_Frame"].BackgroundTransparency = 0.05000000074505806
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderSizePixel = 0
+Converted["_Frame"].Position = UDim2.new(0.277117968, 0, 0.276119411, 0)
+Converted["_Frame"].Size = UDim2.new(0, 562, 0, 360)
+Converted["_Frame"].Parent = Converted["_Executor"]
+
+Converted["_TextLabel"].Font = Enum.Font.SourceSans
+Converted["_TextLabel"].Text = "Razure"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(120.00000804662704, 0, 0)
+Converted["_TextLabel"].TextSize = 60
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Size = UDim2.new(0, 144, 0, 50)
+Converted["_TextLabel"].Parent = Converted["_Frame"]
+
+Converted["_Frame1"].BackgroundColor3 = Color3.fromRGB(60.00000022351742, 60.00000022351742, 60.00000022351742)
+Converted["_Frame1"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Frame1"].BorderSizePixel = 0
+Converted["_Frame1"].ClipsDescendants = true
+Converted["_Frame1"].Position = UDim2.new(0, 9, 0, 57)
+Converted["_Frame1"].Size = UDim2.new(0, 536, 0, 247)
+Converted["_Frame1"].Name = "Frame1"
+Converted["_Frame1"].Parent = Converted["_Frame"]
+
+Converted["_TextBox"].ClearTextOnFocus = false
+Converted["_TextBox"].CursorPosition = -1
+Converted["_TextBox"].Font = Enum.Font.Code
+Converted["_TextBox"].PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox"].PlaceholderText = "--scripts in here"
+Converted["_TextBox"].Text = ""
+Converted["_TextBox"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBox"].TextSize = 14
+Converted["_TextBox"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextBox"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(60.00000022351742, 60.00000022351742, 60.00000022351742)
+Converted["_TextBox"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_TextBox"].BorderSizePixel = 0
+Converted["_TextBox"].Position = UDim2.new(-0.00111935742, 0, -0.00326550449, 0)
+Converted["_TextBox"].Size = UDim2.new(0, 536, 0, 247)
+Converted["_TextBox"].AutoLocalize = false
+Converted["_TextBox"].Parent = Converted["_Frame1"]
+
+Converted["_R6"].Font = Enum.Font.SourceSans
+Converted["_R6"].Text = "R6"
+Converted["_R6"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_R6"].TextSize = 25
+Converted["_R6"].TextWrapped = true
+Converted["_R6"].BackgroundColor3 = Color3.fromRGB(60.00000022351742, 60.00000022351742, 60.00000022351742)
+Converted["_R6"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_R6"].BorderSizePixel = 0
+Converted["_R6"].Position = UDim2.new(0, 413, 0, 315)
+Converted["_R6"].Size = UDim2.new(0, 131, 0, 37)
+Converted["_R6"].Name = "R6"
+Converted["_R6"].Parent = Converted["_Frame"]
+
+Converted["_Exe"].Font = Enum.Font.SourceSans
+Converted["_Exe"].Text = "Execute"
+Converted["_Exe"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Exe"].TextSize = 25
+Converted["_Exe"].TextWrapped = true
+Converted["_Exe"].BackgroundColor3 = Color3.fromRGB(60.00000022351742, 60.00000022351742, 60.00000022351742)
+Converted["_Exe"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Exe"].BorderSizePixel = 0
+Converted["_Exe"].Position = UDim2.new(0, 25, 0, 314)
+Converted["_Exe"].Size = UDim2.new(0, 132, 0, 38)
+Converted["_Exe"].Name = "Exe"
+Converted["_Exe"].Parent = Converted["_Frame"]
+
+Converted["_RemoteEvent"].Parent = Converted["_Exe"]
+
+Converted["_Script"].Source = "-- Pick up FireEvent once button is pressed"
+
+local sss = script.Parent.RemoteEvent
+
+sss.OnServerEvent:Connect(function(skid, lol)
+	require(script.Loadstring)(lol)()
+end)
+Converted["_Script"].Parent = Converted["_Exe"]
+
+Converted["_Cle"].Font = Enum.Font.SourceSans
+Converted["_Cle"].Text = "Clear Script"
+Converted["_Cle"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Cle"].TextSize = 23
+Converted["_Cle"].TextWrapped = true
+Converted["_Cle"].BackgroundColor3 = Color3.fromRGB(60.00000022351742, 60.00000022351742, 60.00000022351742)
+Converted["_Cle"].BorderColor3 = Color3.fromRGB(27.000002190470695, 42.000001296401024, 53.000004440546036)
+Converted["_Cle"].BorderSizePixel = 0
+Converted["_Cle"].Position = UDim2.new(0, 179, 0, 314)
+Converted["_Cle"].Size = UDim2.new(0, 115, 0, 38)
+Converted["_Cle"].Name = "Cle"
+Converted["_Cle"].Parent = Converted["_Frame"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+do -- Fake Module: StarterGui.Executor.Frame.R6.R6
+    local script = Instance.new("ModuleScript")
+    script.Name = "R6"
+    script.Parent = Converted["_R6"]
+    local function module_script()
+		local R6Converter = {}
+		function R6Converter.load(Plr)
+		Plr = game.Players:WaitForChild(Plr)
+		local FalseChar = script:WaitForChild("DefaultCharacter"):Clone()
+		local PlayersCharacter = game.Players:GetCharacterAppearanceAsync(Plr.UserId):Clone()
+		local FaceID = (Plr.Character:WaitForChild("Head"):FindFirstChild("face") or {Texture = "http://www.roblox.com/asset/?id=144080495"}).Texture
+		local Accessories = {}
+		FalseChar:WaitForChild("Head"):WaitForChild("face").Texture = FaceID
+		FalseChar:SetPrimaryPartCFrame(Plr.Character:WaitForChild("HumanoidRootPart").CFrame)
+		for _,Prt in pairs(PlayersCharacter:GetDescendants()) do
+		if Prt:IsA("Accessory") or Prt:IsA("Hat") or Prt:IsA("BodyColors") or Prt:IsA("CharacterMesh")or Prt:IsA("Pants") or Prt:IsA("Shirt") or Prt:IsA("ShirtGraphic") or Prt:IsA("Tool") then
+		table.insert(Accessories,Prt:Clone())
+		end
+		end
+		
+		for _,Prt in pairs(Plr.Character:GetChildren()) do
+		Prt:Destroy()
+		end
+		for _,Prt in pairs(FalseChar:GetChildren()) do
+		Prt.Parent = Plr.Character
+		end
+		for _,Prt in pairs(Accessories) do
+		Prt.Parent = Plr.Character
+		end
+		
+		
+		end
+		
+		return R6Converter
+		
+    end
+    fake_module_scripts[script] = module_script
+end
+do -- Fake Module: StarterGui.Executor.Frame.Exe.Script.Loadstring
+    local script = Instance.new("ModuleScript")
+    script.Name = "Loadstring"
+    script.Parent = Converted["_Script"]
+    local function module_script()
+		--[[
+				vLua 5.1 - Lua written in Lua Virtual Machine
+				---------------
+				vLua is a virtual machine and compiler for dynamically compiling and executing Lua.
+				It'll work on both client and server, regardless of LoadStringEnabled. This module is
+				designed to be a drop in replacement for loadstring, meaning you can do the following:
+				
+				Example:
+					local loadstring = require(workspace.Loadstring)
+					local executable, compileFailReason = loadstring("print('hello from vLua!')")
+					executable()
+				
+				Please note, vLua IS SLOWER COMPARED TO vanilla Lua, although Luau does improve performance.
+				Do not attemptp to run performance intensive tasks without testing first, otherwise you
+				may have a bad time.
+				
+				Interested in improving yourself as a programmer? Consider joining Bleu Pigs - Scripters, a community
+				focused on self improving and showing off creations. Visit the link below to learn more
+				https://devforum.roblox.com/u/bleupigs
+				
+				Changelog:
+					[3222021]
+						- fixed module erroring due to missing script variable
+						- removed types until TypedLua is more stable/adopted
+						- added an how to use example
+				
+					[372021]
+						- updated  FiOne to latest release
+						- migrated Yeuliang to improved version from Moonshine
+				
+				Credits:
+					- FiOne LBI (created by same author as Rerubi) - https://github.com/Rerumu/FiOne
+					- Yueliang 5 (Lua compiler in Lua) - http://yueliang.luaforge.net/
+					- Moonshine (improved version of Yeuliang) - https://github.com/gamesys/moonshine
+		]]
+		local compile = require(script:WaitForChild("Yueliang"))
+		local createExecutable = require(script:WaitForChild("FiOne"))
+		getfenv().script = nil
+		
+		return function(source, env)
+			local executable
+			local env = env or getfenv(2)
+			local name = (env.script and env.script:GetFullName())
+			local ran, failureReason = pcall(function()
+				local compiledBytecode = compile(source, name)
+				executable = createExecutable(compiledBytecode)
+			end)
+			
+			if ran then
+				return executable
+			end
+			return nil, failureReason
+		end
+    end
+    fake_module_scripts[script] = module_script
+end
+
+-- Fake Local Scripts:
+
+local function ZAYJOSD_fake_script() -- Fake Script: StarterGui.Executor.Frame.R6.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_R6"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	script.Parent.MouseButton1Click:Connect(function()
+	script.RemoteEvent:FireServer()
+	end)
+end
+local function OJFD_fake_script() -- Fake Script: StarterGui.Executor.Frame.Exe.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Exe"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	-- Fires RemoteEvent once button is pressed
+	
+	local RS = script.Parent.RemoteEvent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		RS:FireServer(script.Parent.Parent.Frame1.TextBox.Text) -- Fires the Text in the TextBox
+	end)
+end
+local function QJRS_fake_script() -- Fake Script: StarterGui.Executor.Frame.Cle.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Cle"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local box = script.Parent.Parent.Frame1.TextBox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		box.Text = "-- Script Cleared!"
+		wait(.6)
+		box.Text = ""
+	end)
+end
+local function AGTFQ_fake_script() -- Fake Script: StarterGui.Executor.Frame.Smooth GUI Dragging
+    local script = Instance.new("LocalScript")
+    script.Name = "Smooth GUI Dragging"
+    script.Parent = Converted["_Frame"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+
+coroutine.wrap(ZAYJOSD_fake_script)()
+coroutine.wrap(OJFD_fake_script)()
+coroutine.wrap(QJRS_fake_script)()
+coroutine.wrap(AGTFQ_fake_script)()

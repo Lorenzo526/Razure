@@ -15,7 +15,7 @@ local Cle = Instance.new("TextButton")
 --Properties:
 
 Executor.Name = "Executor"
-Executor.Parent = game.Workspace
+Executor.Parent = game.CoreGui
 Executor.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = Executor
